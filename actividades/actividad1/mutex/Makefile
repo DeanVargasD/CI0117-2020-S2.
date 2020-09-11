@@ -1,2 +1,2 @@
 compile: helloworld.c
-    gcc helloworld.c -o hello -pthread
+    gcc helloworld.c -o hello.o -pthread
