@@ -22,11 +22,7 @@ void* helloWorld(void* args) {
     size_t thread_num = data->thread_num;
     shared_data_t* shared_data = data->shared_data;
     size_t total_threads = shared_data->total_threads;
-    
 
-    
-
-   
 
    pthread_mutex_lock(&shared_data->mutex);
    size_t position = shared_data->message;
